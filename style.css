@@ -1,0 +1,117 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    margin: 10px 5px;
+    padding: 0;
+}
+
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+
+.header-container{
+    display:flex;
+   
+    justify-content: space-between;
+    border-color: black;
+    /* border-width: 2px; */
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+    border-right-style: solid;
+    width:30%;
+   
+}
+ul li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+.boutons p{
+    width:80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: red;
+    text-align: center;
+    line-height: 80px;
+}
+.boutons{
+    display: flex;
+}
+.boutons :nth-child(2){
+    background-color: blue;
+}
+.boutons :nth-child(3){
+    background-color:yellowgreen;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer{
+    font-size: 13px;
+}
+
+@media (max-width:450px){
+    *{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #000;
+    }
+    img{
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+    }
+    
+    .header-container{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+    ul li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .boutons p{
+        width:80px;
+        height: 80px;
+        border-radius: 100%;
+        background-color: red;
+        text-align: center;
+        line-height: 80px;
+    }
+    .boutons{
+        display: flex;
+    }
+    .boutons :nth-child(2){
+        background-color: blue;
+    }
+    .boutons :nth-child(3){
+        background-color:yellowgreen;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer{
+        font-size: 13px;
+    }
+}
+
+
+
